@@ -1,0 +1,14 @@
+extends index
+block content
+ 
+   table(class="wrapper")
+    thead
+     tr
+      th Path
+      th Visits
+    tbody
+     each rutas in data
+      tr 
+       td= rutas._id
+       td= rutas.count
+

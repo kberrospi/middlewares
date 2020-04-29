@@ -150,3 +150,12 @@ a {
 }
 
 .note-form-page .form-actions .btn.btn-primary { background-color: #47bded; }
+
+.wrapper {
+  width: 400px;
+  margin: 20px auto 0;
+  text-align: center;
+}
+
+table { width: 100%; }
+table th, table td { padding: 7px 5px; border-bottom: 1px solid #ccc; }
